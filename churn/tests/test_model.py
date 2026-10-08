@@ -1,4 +1,10 @@
-from src.model import best_result, load_data, make_features, predict_customer, train_and_compare
+from churn.src.model import (
+    best_result,
+    load_data,
+    make_features,
+    predict_customer,
+    train_and_compare,
+)
 
 
 def test_real_dataset_loads_and_target_is_binary():
