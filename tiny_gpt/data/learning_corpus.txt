@@ -1,0 +1,23 @@
+Samia is learning machine learning one project at a time.
+A good model begins with a clear question and honest data.
+Python helps us clean tables, explore patterns, and test ideas.
+A training set teaches a model while a validation set helps us choose.
+A test set is kept apart until the end.
+Accuracy can be useful, but precision and recall explain more when classes are uneven.
+A pipeline keeps preprocessing close to the model and helps prevent leakage.
+The Iris project teaches classification with small clean data.
+The churn project teaches feature engineering and business tradeoffs.
+A transformer predicts the next token from the tokens that came before it.
+Attention lets each position gather information from earlier positions.
+A causal mask prevents the model from looking into the future.
+Embeddings turn token IDs into vectors.
+Position embeddings tell the model where each character appears.
+Layer normalization keeps activations stable.
+Residual connections help information and gradients move through a deep network.
+The feed forward network transforms each position after attention communicates.
+Training changes parameters so likely next characters receive higher scores.
+A small character model cannot become ChatGPT.
+It can still teach the architecture that powers modern language models.
+Good engineering includes tests, documentation, reproducible seeds, and clear limits.
+Constant learning means building, measuring, explaining, and improving.
+Samia keeps learning machine learning through practical projects.

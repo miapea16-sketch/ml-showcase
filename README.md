@@ -12,6 +12,10 @@ A clean multiclass classification workflow with a scikit-learn pipeline, holdout
 
 A realistic applied-ML project using IBM's public Telco Customer Churn sample. It adds mixed-type preprocessing, missing-value handling, domain feature engineering, model comparison, class-imbalance-aware metrics, permutation importance, and an interactive risk-scoring dashboard.
 
+### 3. [Tiny GPT from Scratch](tiny_gpt/) — deep-learning foundations
+
+An educational character-level GPT-style Transformer built with PyTorch primitives. It makes tokenization, causal self-attention, positional embeddings, residual blocks, next-token loss, and autoregressive generation visible in a small laptop-friendly project.
+
 ## Why this progression matters
 
 The Iris project shows that the fundamentals are understood. The churn project shows how those fundamentals change when the data is messy and the business question matters: model choice, recall, thresholds, explainability, and limitations all need to be considered.
@@ -30,4 +34,4 @@ streamlit run app.py
 streamlit run churn/app.py
 ```
 
-Both projects include their own README, tests, and CI workflow. See [churn/README.md](churn/README.md) for the full applied-ML walkthrough.
+Each project includes its own README and tests. See [churn/README.md](churn/README.md) for the full applied-ML walkthrough, or [tiny_gpt/README.md](tiny_gpt/README.md) for the Transformer learning project.
